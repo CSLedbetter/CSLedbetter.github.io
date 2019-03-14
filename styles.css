@@ -55,3 +55,7 @@ img	/*Setting max-width: 100%; property makes images always fit the width of the
 {
 	max-width: 100%;
 }
+
+div {
+	border: 1px solid black;
+}
