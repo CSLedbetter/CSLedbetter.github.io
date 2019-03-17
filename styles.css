@@ -62,3 +62,7 @@ div {
 div.flex-column {
 	padding-bottom:4em;
 }
+
+div.row + div {
+	margin-right: 1em;
+}
