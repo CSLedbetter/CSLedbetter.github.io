@@ -1,17 +1,15 @@
-body
-{
+body {
 	color: #404040;
 	line-height: 1.7em;
 	background-color: #fff;
 	font-family: Arial;
 	display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;	
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
 }
 
-h1
-{
+h1 {
 	font-size: 1.5em;
 	font-weight: normal;
 	margin-bottom: 8px;
@@ -21,16 +19,14 @@ h1
 	color: #D9443F;
 }
 
-h2
-{
+h2 {
 	font-size: 1.2em;
 	font-weight: normal;
 	margin-bottom: 4px;
 	margin-top: 20px;
 }
 
-h3
-{
+h3 {
 	font-size: 1.1em;
 	font-weight: normal;
 	margin-bottom: 4px;
@@ -38,31 +34,28 @@ h3
 }
 
 
-li
-{
+li {
 	margin-bottom: 6px;
 	margin-top: 6px;
 }
 
-p
-{
+p {
 	margin-bottom: 8px;
 	margin-top: 8px;
 }
 
-img	/*Setting max-width: 100%; property makes images always fit the width of the container*/
-{
+img
+
+/*Setting max-width: 100%; property makes images always fit the width of the container*/
+	{
 	max-width: 100%;
 }
 
-div {
-	border: 1px solid black;
-}
 
 div.flex-column {
-	padding-bottom:4em;
+	padding-bottom: 4em;
 }
 
 .fas {
-	font-size: 1.1 em;
+	font-size: 2em;
 }
