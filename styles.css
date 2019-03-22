@@ -56,6 +56,10 @@ div.flex-column {
 	padding-bottom: 4em;
 }
 
-.fas {
+.fa-envelope {
 	font-size: 2em;
+}
+
+div div{
+	margin: 0em 2em;
 }
