@@ -57,9 +57,5 @@ div.flex-column {
 }
 
 .fontSize {
-	font-size: 2em;
-}
-
-div div{
-	margin: 1em 2em;
+	font-size: 1.5em;
 }
