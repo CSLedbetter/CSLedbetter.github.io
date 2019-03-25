@@ -59,3 +59,9 @@ div.flex-column {
 .fontSize {
 	font-size: 1.5em;
 }
+div.row div.col-6-sm a span {
+    font-size: 0.8em !important;
+    display: block;
+    margin-top: 0.2rem;
+    font-weight: 100
+}
