@@ -63,5 +63,5 @@ div.row div.col-6-sm a span {
 	font-weight: 100
 }
 div.col-6-sm + div.col-6-sm {
-	margin: 1em;
+	margin: 0 1em;
 }
