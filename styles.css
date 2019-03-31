@@ -45,7 +45,6 @@ p {
 }
 
 img
-
 /*Setting max-width: 100%; property makes images always fit the width of the container*/
 	{
 	max-width: 100%;
@@ -64,4 +63,7 @@ div.row div.col-6-sm a span {
 }
 div.col-6-sm + div.col-6-sm {
 	margin: 0 1em;
+}
+div a img {
+	width: 40%;
 }
