@@ -70,3 +70,7 @@ div a img {
 .name {
 	margin-top: 6em;
 }
+
+div.row div.col-6-sm a {
+	font-size: 3em;
+}
