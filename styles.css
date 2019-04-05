@@ -56,13 +56,13 @@ div.flex-column {
 }
 
 div.row div.col-6-sm a span {
-	font-size: 0.8em !important;
+	font-size: 0.4em !important;
 	display: block;
 	margin-top: 0.2rem;
 	font-weight: 100
 }
-div.col-6-sm + div.col-6-sm {
-	margin: 0 1em;
+div.col-6-sm {
+	margin: 1em;
 }
 div a img {
 	width: 40%;
