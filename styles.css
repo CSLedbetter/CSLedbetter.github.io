@@ -10,11 +10,11 @@ body {
 }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 2.5em;
 	font-weight: normal;
 	margin-bottom: 8px;
 	padding-bottom: 10px;
-	margin-top: 30px;
+	margin-top: 8em;
 	font-family: Arial;
 	color: #333;
 }
@@ -66,9 +66,6 @@ div.col-6-sm + div.col-6-sm {
 }
 div a img {
 	width: 40%;
-}
-.name {
-	margin-top: 6em;
 }
 
 div.row div.col-6-sm a {
