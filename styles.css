@@ -75,6 +75,7 @@ a.portfoliolink {
 	font-size: 1.1em !important;
 }
 
-a {
+a  a:hover {
 	text-decoration: none;
+	color: #333
 }
