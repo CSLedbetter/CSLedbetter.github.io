@@ -75,7 +75,12 @@ a.portfoliolink {
 	font-size: 1.1em !important;
 }
 
-a  a:hover {
+a:hover, a:visited {
+	text-decoration: none;
+	color: #333
+}
+
+h1 a:hover {
 	text-decoration: none;
 	color: #333
 }
