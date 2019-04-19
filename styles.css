@@ -71,8 +71,9 @@ div a img {
 div.row div.col-6-sm a {
 	font-size: 3em;
 }
-a.portfoliolink {
+a.portfoliolink, a.portfoliolink:hover {
 	font-size: 1.1em !important;
+	color: lightskyblue;
 }
 
 a:hover, a:visited, a {
