@@ -156,7 +156,7 @@ body{
 .card__top{
   height: 80%;
   width: 100%;
-  background-image: url('images/HeadshotCasey.JPG');
+  background-image: url('/images/HeadshotCasey.JPG');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
