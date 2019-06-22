@@ -47,7 +47,7 @@ p {
 
 img
 
-/*Setting max-width: 100%; property makes images always fit the width of the container*/
+/*Setting max-width: 100%; property makes images always fit the width of the container
 	{
 	max-width: 100%;
 }
@@ -94,6 +94,7 @@ h1 a:hover {
 	color: #333
 }
 */
+
 /********   Card CSS  ***********/
 
 *{
