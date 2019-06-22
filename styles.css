@@ -92,3 +92,133 @@ h1 a:hover {
 	text-decoration: none;
 	color: #333
 }
+
+/********   Card CSS  ***********/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #E6E6EA;
+}
+
+.card, .card__front, .card__back {
+	width: 320px;
+	height: 480px;
+  border-radius: 5px;
+}
+
+.card {
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.card__front, .card__back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.card__front {
+  z-index: 2;
+  background: #009FB7;
+  color: #F4F4F8;
+  overflow: hidden;
+}
+
+.card__back {
+  padding: 15px;
+  transform: rotateY(180deg);
+  background: #0091A7;
+  color: #F4F4F8;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container{
+  &:hover{
+    .card{
+      transform: rotateY(180deg);
+    }
+  }
+}
+
+.card__top{
+  height: 80%;
+  width: 100%;
+  background-image: url('images/HeadshotCasey.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.card__picture{
+  width: 100%;
+}
+
+.card__bottom{
+  padding: 15px;
+}
+
+.card__title, .card__subtitle{
+  text-align: center;
+}
+
+.card__title{
+  font-size: 24px;
+  margin: 5px;
+  font-family: 'Merienda One', cursive;
+}
+
+.card__subtitle{
+  font-size: 24px;
+  margin: 0;
+  color: #E4E0C9;
+  font-family: 'Amaranth', sans-serif;
+}
+
+.card__list{
+  margin: 25px 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.card__text{
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.card__item{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.social-networks{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.icon{
+  font-size: 28px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #F4F4F8;
+  transition: .5s all;
+  &:hover{
+    transform: scale(1.2);
+    color: #E4E0C9;
+  }
+}
+
+.card__title--cream{
+  color: #E4E0C9;
+}
