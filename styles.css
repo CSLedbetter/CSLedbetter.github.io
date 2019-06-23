@@ -51,13 +51,9 @@ body {
 	justify-content: space-around;
 }
 
-.container {
-	&:hover {
-		.card {
-			transform: rotateY(180deg);
-		}
-	}
-}
+.container:hover .card {
+	transform: rotateY(180deg);
+  }
 
 .card__top {
 	height: 80%;
@@ -119,14 +115,14 @@ body {
 	font-size: 28px;
 	margin-right: 10px;
 	margin-left: 10px;
-	color: #F4F4F8;
-	transition: .5s all;
+	color: #f4f4f8;
+	transition: 0.5s all;
+  }
 
-	&:hover {
-		transform: scale(1.2);
-		color: #E4E0C9;
-	}
-}
+  .icon:hover {
+	transform: scale(1.2);
+	color: #e4e0c9;
+  }
 
 .card__title--cream {
 	color: #E4E0C9;
