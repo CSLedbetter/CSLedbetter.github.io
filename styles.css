@@ -3,7 +3,7 @@
 }
 
 img.portfoliothumbnail {
-    max-width: 40em;
+	max-width: 40em;
 }
 
 body {
@@ -62,12 +62,23 @@ body {
 .container:hover .card,
 .container:active .card,
 .container:focus .card {
+	-webkit-transform: rotateY(20deg);
+	transform: rotateY(20deg);
+	box-shadow: -30px 10px 10px rgba(50, 50, 50, .2);
+}
+
+
+:checked+.card {
 	transform: rotateY(180deg);
 	-ms-transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
-  }
+}
+
+input {
+	display: none;
+}
 
 .card_top {
 	height: 80%;
@@ -131,13 +142,13 @@ body {
 	margin-left: 10px;
 	color: #f4f4f8;
 	transition: 0.5s all;
-  }
+}
 
-  .icon:hover, 
-  .icon:active {
+.icon:hover,
+.icon:active {
 	transform: scale(1.2);
 	color: #e4e0c9;
-  }
+}
 
 .card_title--cream {
 	color: #E4E0C9;
