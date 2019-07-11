@@ -47,6 +47,10 @@ body {
 .card__back {
 	padding: 15px;
 	transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
 	background: #0091A7;
 	color: #F4F4F8;
 	overflow: hidden;
@@ -56,7 +60,8 @@ body {
 }
 
 .container:hover .card,
-.container:active .card {
+.container:active .card,
+.container:focus .card {
 	transform: rotateY(180deg);
 	-ms-transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
