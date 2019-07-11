@@ -1,4 +1,5 @@
 function flipCard() {
+    var state = 1;
     if (state) {
         document.getElementById("front").style.webkitTransform="rotateY(-180deg)";    
         document.getElementById("back").style.webkitTransform="rotateY(0deg)";
