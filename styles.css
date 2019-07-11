@@ -32,13 +32,13 @@ body {
 .card__front,
 .card__back {
 	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
 .card__front {
-	z-index: 2;
 	background: #009FB7;
 	color: #F4F4F8;
 	overflow: hidden;
@@ -67,6 +67,7 @@ body {
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
+	z-index: 1;
   }
 
 .card__top {
