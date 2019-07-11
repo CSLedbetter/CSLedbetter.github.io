@@ -16,8 +16,8 @@ body {
 }
 
 .card,
-.card__front,
-.card__back {
+.card_front,
+.card_back {
 	width: 320px;
 	height: 480px;
 	border-radius: 5px;
@@ -29,8 +29,8 @@ body {
 	position: relative;
 }
 
-.card__front,
-.card__back {
+.card_front,
+.card_back {
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	position: absolute;
@@ -38,13 +38,13 @@ body {
 	left: 0;
 }
 
-.card__front {
+.card_front {
 	background: #009FB7;
 	color: #F4F4F8;
 	overflow: hidden;
 }
 
-.card__back {
+.card_back {
 	padding: 15px;
 	transform: rotateY(180deg);
 	-ms-transform: rotateY(180deg);
@@ -69,7 +69,7 @@ body {
 	-o-transform: rotateY(180deg);
   }
 
-.card__top {
+.card_top {
 	height: 80%;
 	width: 100%;
 	background-image: url('/images/HeadshotCasey.JPG');
@@ -78,43 +78,43 @@ body {
 	background-position: 50% 50%;
 }
 
-.card__picture {
+.card_picture {
 	width: 100%;
 }
 
-.card__bottom {
+.card_bottom {
 	padding: 15px;
 }
 
-.card__title,
-.card__subtitle {
+.card_title,
+.card_subtitle {
 	text-align: center;
 }
 
-.card__title {
+.card_title {
 	font-size: 24px;
 	margin: 5px;
 	font-family: 'Merienda One', cursive;
 }
 
-.card__subtitle {
+.card_subtitle {
 	font-size: 24px;
 	margin: 0;
 	color: #E4E0C9;
 	font-family: 'Amaranth', sans-serif;
 }
 
-.card__list {
+.card_list {
 	margin: 25px 0;
 	font-family: 'Quicksand', sans-serif;
 }
 
-.card__text {
+.card_text {
 	font-size: 18px;
 	font-family: 'Quicksand', sans-serif;
 }
 
-.card__item {
+.card_item {
 	font-size: 16px;
 	margin-bottom: 10px;
 }
@@ -139,6 +139,6 @@ body {
 	color: #e4e0c9;
   }
 
-.card__title--cream {
+.card_title--cream {
 	color: #E4E0C9;
 }
