@@ -59,14 +59,6 @@ body {
 	justify-content: space-around;
 }
 
-.container:hover .card,
-.container:active .card,
-.container:focus .card {
-	-webkit-transform: rotateY(20deg);
-	transform: rotateY(20deg);
-	box-shadow: -30px 10px 10px rgba(50, 50, 50, .2);
-}
-
 
 :checked+.card {
 	transform: rotateY(180deg);
