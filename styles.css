@@ -3,7 +3,7 @@
 }
 
 img.portfoliothumbnail {
-	max-width: 40em;
+	max-width: 80%;
 }
 
 body {
@@ -144,4 +144,10 @@ input {
 
 .card_title--cream {
 	color: #E4E0C9;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+	img.portfoliothumbnail {
+		max-width: 80%;
+	}
 }
