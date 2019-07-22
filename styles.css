@@ -148,6 +148,6 @@ input {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
 	img.portfoliothumbnail {
-		max-width: 80%;
+		max-width: 70%;
 	}
 }
